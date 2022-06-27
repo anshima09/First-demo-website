@@ -1,0 +1,168 @@
+
+    /* CSS Reset */
+    body {
+        font-family:  cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://media.istockphoto.com/photos/notepad-on-a-table-picture-id496489488?k=6&m=496489488&s=170667a&w=0&h=MZh7WDENLh-yZn_wlCaKIIf1CukKGaVNpdEBOmn6Mho=');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1500px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+        
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        color: black;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+        
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+       
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(29, 27, 27);
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    /* for color transition */
+    .navbar li a.active 
+    /* for Active page button color */
+    {
+        text-decoration: underline;
+        color: rgb(248, 68, 68);
+
+    }
+
+    .btn {
+        font-family: cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .text{
+        background-color: #13121200;
+        max-width: 560px;
+        margin: 40px;
+        margin-top: 100px;
+        margin-left: 58px;
+        font-family: revert;
+        font-size: x-large;
+        color: black;
+    }
+   
+    
+     
+     .fa {
+         padding: 20px;
+         font-size: .7cm;
+         height: .6cm;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 2px;
+       }
+       .fa:hover {
+     opacity: 0.7;
+ }
+       .fa-facebook {
+             background: #3B5998;
+             color: white;
+           }
+           
+           .fa-twitter {
+             background: #55ACEE;
+             color: white;
+           }
+           
+           .fa-google {
+             background: #dd4b39;
+             color: white;
+           }
+           
+           
+           
+           .fa-youtube {
+             background: #bb0000;
+             color: white;
+           }
+           
+           .fa-instagram {
+             background: #f71a6e;
+             color: white;
+           }
+           .collapsible {
+            background: rgba(255, 255, 255, .1);
+            color: black;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: black;
+        }
+        .form
+        {
+            font-size: .5cm;
+            color: black;
+            margin-left: 1cm;
+        }
